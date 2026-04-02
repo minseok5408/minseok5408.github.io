@@ -1,6 +1,6 @@
 # 석류의 개발일지
 
-> **kimseokryu**의 기술 블로그 — Jekyll + Chirpy 테마 기반 GitHub Pages 블로그
+> **kimseokryu**의 개발 블로그
 
 ---
 
@@ -18,14 +18,14 @@
 
 ## 프로젝트 개요
 
-| 항목 | 내용 |
-|------|------|
-| 테마 | [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) v7.3.1 |
-| 정적 사이트 생성기 | Jekyll 4.4.1 |
-| 호스팅 | GitHub Pages |
-| 언어 설정 | 한국어 (`ko-KR`) |
-| 시간대 | `Asia/Seoul` |
-| 배포 방식 | `main` 브랜치 push 시 GitHub Actions 자동 빌드·배포 |
+| 항목               | 내용                                                                           |
+| ------------------ | ------------------------------------------------------------------------------ |
+| 테마               | [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) v7.3.1 |
+| 정적 사이트 생성기 | Jekyll 4.4.1                                                                   |
+| 호스팅             | GitHub Pages                                                                   |
+| 언어 설정          | 한국어 (`ko-KR`)                                                               |
+| 시간대             | `Asia/Seoul`                                                                   |
+| 배포 방식          | `main` 브랜치 push 시 GitHub Actions 자동 빌드·배포                            |
 
 ---
 
@@ -126,6 +126,7 @@ minseok5408.github.io/
 ## 블로그 표시 항목
 
 ### 사이드바 (항상 표시)
+
 - 프로필 사진 (`assets/img/avatar.jpeg`)
 - 사이트 제목 및 부제목 (`_config.yml` → `title`, `tagline`)
 - 내비게이션 탭: 홈, 아카이브, 카테고리, 태그, 소개
@@ -133,10 +134,12 @@ minseok5408.github.io/
 - 라이트/다크 테마 전환 버튼
 
 ### 홈 페이지
+
 - 최신 포스트 목록 (페이지당 10개, `_config.yml` → `paginate`)
 - 포스트 제목, 날짜, 카테고리, 태그, 미리보기 텍스트
 
 ### 포스트 상세 페이지
+
 - 제목, 날짜, 작성자, 카테고리, 태그
 - 예상 읽기 시간
 - 목차(TOC) — 오른쪽 사이드에 고정
@@ -146,15 +149,19 @@ minseok5408.github.io/
 - 관련 포스트 추천
 
 ### 아카이브 (`/archives/`)
+
 - 전체 포스트를 연도·월 기준으로 시간순 정렬
 
 ### 카테고리 (`/categories/`)
+
 - 카테고리별 포스트 수 및 목록
 
 ### 태그 (`/tags/`)
+
 - 태그 클라우드 및 태그별 포스트 목록
 
 ### 소개 (`/about/`)
+
 - `_tabs/about.md` 파일 내용
 
 ---
@@ -163,40 +170,40 @@ minseok5408.github.io/
 
 ### 필수 런타임
 
-| 도구 | 버전 | 설치 방법 |
-|------|------|----------|
-| **Ruby** | `~> 3.1` (3.1.x 이상, 4.x 미만) | [RubyInstaller](https://rubyinstaller.org/) (Windows) / rbenv / rvm |
-| **Bundler** | `2.3.27` 이상 | `gem install bundler` |
-| **Jekyll** | `4.4.1` (Gemfile.lock 고정) | Bundler가 자동 설치 |
-| **Node.js** | `18.x` 이상 | [nodejs.org](https://nodejs.org/) |
-| **npm** | `9.x` 이상 | Node.js에 포함 |
+| 도구        | 버전                            | 설치 방법                                                           |
+| ----------- | ------------------------------- | ------------------------------------------------------------------- |
+| **Ruby**    | `~> 3.1` (3.1.x 이상, 4.x 미만) | [RubyInstaller](https://rubyinstaller.org/) (Windows) / rbenv / rvm |
+| **Bundler** | `2.3.27` 이상                   | `gem install bundler`                                               |
+| **Jekyll**  | `4.4.1` (Gemfile.lock 고정)     | Bundler가 자동 설치                                                 |
+| **Node.js** | `18.x` 이상                     | [nodejs.org](https://nodejs.org/)                                   |
+| **npm**     | `9.x` 이상                      | Node.js에 포함                                                      |
 
 ### 주요 Ruby Gem 버전 (Gemfile.lock 기준)
 
-| Gem | 버전 |
-|-----|------|
-| jekyll | 4.4.1 |
-| jekyll-paginate | 1.1.0 |
-| jekyll-seo-tag | 2.8.0 |
-| jekyll-archives | 2.3.0 |
-| jekyll-sitemap | 1.4.0 |
-| jekyll-include-cache | 0.2.1 |
-| kramdown | 2.5.1 |
-| rouge | 4.6.0 |
-| sass-embedded | 1.90.0 |
-| html-proofer | 5.0.10 (테스트 전용) |
+| Gem                  | 버전                 |
+| -------------------- | -------------------- |
+| jekyll               | 4.4.1                |
+| jekyll-paginate      | 1.1.0                |
+| jekyll-seo-tag       | 2.8.0                |
+| jekyll-archives      | 2.3.0                |
+| jekyll-sitemap       | 1.4.0                |
+| jekyll-include-cache | 0.2.1                |
+| kramdown             | 2.5.1                |
+| rouge                | 4.6.0                |
+| sass-embedded        | 1.90.0               |
+| html-proofer         | 5.0.10 (테스트 전용) |
 
 ### 주요 npm 패키지 버전 (package.json 기준)
 
-| 패키지 | 버전 | 용도 |
-|--------|------|------|
-| bootstrap | ^5.3.6 | UI 프레임워크 |
-| @popperjs/core | ^2.11.8 | 드롭다운/툴팁 포지셔닝 |
-| rollup | ^4.41.0 | JS 번들러 |
-| @babel/core | ^7.27.x | JS 트랜스파일러 |
-| eslint | ^9.27.0 | JS 린터 |
-| stylelint | ^16.19.1 | SCSS 린터 |
-| purgecss | ^7.0.2 | CSS 최적화 |
+| 패키지         | 버전     | 용도                   |
+| -------------- | -------- | ---------------------- |
+| bootstrap      | ^5.3.6   | UI 프레임워크          |
+| @popperjs/core | ^2.11.8  | 드롭다운/툴팁 포지셔닝 |
+| rollup         | ^4.41.0  | JS 번들러              |
+| @babel/core    | ^7.27.x  | JS 트랜스파일러        |
+| eslint         | ^9.27.0  | JS 린터                |
+| stylelint      | ^16.19.1 | SCSS 린터              |
+| purgecss       | ^7.0.2   | CSS 최적화             |
 
 ---
 
@@ -230,11 +237,13 @@ bundle exec jekyll serve
 브라우저에서 `http://localhost:4000` 접속
 
 > **초안 포함 미리보기:**
+>
 > ```bash
 > bundle exec jekyll serve --drafts
 > ```
 
 > **라이브 리로드 (파일 변경 시 자동 새로고침):**
+>
 > ```bash
 > bundle exec jekyll serve --livereload
 > ```
@@ -256,8 +265,8 @@ date: 2026-04-02 09:00:00 +0900
 categories: [상위카테고리, 하위카테고리]
 tags: [태그1, 태그2, 태그3]
 author: kimseokryu
-toc: true          # 목차 표시 여부 (기본값: true)
-comments: true     # 댓글 표시 여부 (기본값: true)
+toc: true # 목차 표시 여부 (기본값: true)
+comments: true # 댓글 표시 여부 (기본값: true)
 image:
   path: /assets/img/posts/썸네일이미지.png
   alt: 이미지 설명
