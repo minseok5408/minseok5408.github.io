@@ -1,12 +1,165 @@
 [
   
   {
+    "title": "2026-04-09 강의 정리",
+    "url": "/%EB%AA%A8%EB%91%90%EC%9D%98%EC%97%B0%EA%B5%AC%EC%86%8C/ai/llm%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B0%9C%EB%B0%9C%20%EA%B3%BC%EC%A0%95/2026-04-09-%EA%B0%95%EC%9D%98%EC%A0%95%EB%A6%AC",
+    "categories": "모두의연구소, AI/LLM 서비스 개발 과정",
+    "tags": "AI, LLM",
+    "date": "2026-04-09 23:59:59 +0900",
+    "content": "LLM을 활용한 성능 평가 (LLM-as-Judge) - LangChain QA Evaluation"
+  },
+  
+  {
+    "title": "2026-04-08 강의 정리",
+    "url": "/%EB%AA%A8%EB%91%90%EC%9D%98%EC%97%B0%EA%B5%AC%EC%86%8C/ai/llm%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B0%9C%EB%B0%9C%20%EA%B3%BC%EC%A0%95/2026-04-08-%EA%B0%95%EC%9D%98%EC%A0%95%EB%A6%AC",
+    "categories": "모두의연구소, AI/LLM 서비스 개발 과정",
+    "tags": "AI, LLM",
+    "date": "2026-04-08 23:59:59 +0900",
+    "content": "RAG 답변 평가 - 정량적 지표 활용"
+  },
+  
+  {
+    "title": "2026-04-07 강의 정리",
+    "url": "/%EB%AA%A8%EB%91%90%EC%9D%98%EC%97%B0%EA%B5%AC%EC%86%8C/ai/llm%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B0%9C%EB%B0%9C%20%EA%B3%BC%EC%A0%95/2026-04-07-%EA%B0%95%EC%9D%98%EC%A0%95%EB%A6%AC",
+    "categories": "모두의연구소, AI/LLM 서비스 개발 과정",
+    "tags": "AI, LLM",
+    "date": "2026-04-07 23:59:59 +0900",
+    "content": "주요 언어 모델 공급자 및 활용 (Claude, Gemini, Groq, Ollama, Huggingface)"
+  },
+  
+  {
+    "title": "2026-04-03 강의 정리",
+    "url": "/%EB%AA%A8%EB%91%90%EC%9D%98%EC%97%B0%EA%B5%AC%EC%86%8C/ai/llm%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B0%9C%EB%B0%9C%20%EA%B3%BC%EC%A0%95/2026-04-03-%EA%B0%95%EC%9D%98%EC%A0%95%EB%A6%AC",
+    "categories": "모두의연구소, AI/LLM 서비스 개발 과정",
+    "tags": "AI, LLM",
+    "date": "2026-04-03 23:59:59 +0900",
+    "content": "검색 성능 향상을 위한 기법 - 쿼리 확장 (Query Expansion)"
+  },
+  
+  {
+    "title": "2026-04-02 강의 정리",
+    "url": "/%EB%AA%A8%EB%91%90%EC%9D%98%EC%97%B0%EA%B5%AC%EC%86%8C/ai/llm%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B0%9C%EB%B0%9C%20%EA%B3%BC%EC%A0%95/2026-04-02-%EA%B0%95%EC%9D%98%EC%A0%95%EB%A6%AC",
+    "categories": "모두의연구소, AI/LLM 서비스 개발 과정",
+    "tags": "AI, LLM",
+    "date": "2026-04-02 23:59:59 +0900",
+    "content": "검색 성능 향상을 위한 기법 - 키워드 검색 / 하이브리드 검색"
+  },
+  
+  {
+    "title": "2026-04-01 강의 정리",
+    "url": "/%EB%AA%A8%EB%91%90%EC%9D%98%EC%97%B0%EA%B5%AC%EC%86%8C/ai/llm%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B0%9C%EB%B0%9C%20%EA%B3%BC%EC%A0%95/2026-04-01-%EA%B0%95%EC%9D%98%EC%A0%95%EB%A6%AC",
+    "categories": "모두의연구소, AI/LLM 서비스 개발 과정",
+    "tags": "AI, LLM",
+    "date": "2026-04-01 23:59:59 +0900",
+    "content": "정보 검색 평가지표 (HitRate, MRR, NDCG) 이해"
+  },
+  
+  {
+    "title": "2026-03-31 강의 정리",
+    "url": "/%EB%AA%A8%EB%91%90%EC%9D%98%EC%97%B0%EA%B5%AC%EC%86%8C/ai/llm%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B0%9C%EB%B0%9C%20%EA%B3%BC%EC%A0%95/2026-03-31-%EA%B0%95%EC%9D%98%EC%A0%95%EB%A6%AC",
+    "categories": "모두의연구소, AI/LLM 서비스 개발 과정",
+    "tags": "AI, LLM",
+    "date": "2026-03-31 23:59:59 +0900",
+    "content": "[프로젝트2] 안내 + RAG 성능평가 개요"
+  },
+  
+  {
+    "title": "2026-03-27 강의 정리",
+    "url": "/%EB%AA%A8%EB%91%90%EC%9D%98%EC%97%B0%EA%B5%AC%EC%86%8C/ai/llm%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B0%9C%EB%B0%9C%20%EA%B3%BC%EC%A0%95/2026-03-27-%EA%B0%95%EC%9D%98%EC%A0%95%EB%A6%AC",
+    "categories": "모두의연구소, AI/LLM 서비스 개발 과정",
+    "tags": "AI, LLM",
+    "date": "2026-03-27 23:59:59 +0900",
+    "content": "대화 이력 관리를 위한 메모리 구현 (Chat History)"
+  },
+  
+  {
+    "title": "2026-03-26 강의 정리",
+    "url": "/%EB%AA%A8%EB%91%90%EC%9D%98%EC%97%B0%EA%B5%AC%EC%86%8C/ai/llm%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B0%9C%EB%B0%9C%20%EA%B3%BC%EC%A0%95/2026-03-26-%EA%B0%95%EC%9D%98%EC%A0%95%EB%A6%AC",
+    "categories": "모두의연구소, AI/LLM 서비스 개발 과정",
+    "tags": "AI, LLM",
+    "date": "2026-03-26 23:59:59 +0900",
+    "content": "프롬프트 엔지니어링 - Chain-of-Thought (CoT)"
+  },
+  
+  {
+    "title": "2026-03-25 강의 정리",
+    "url": "/%EB%AA%A8%EB%91%90%EC%9D%98%EC%97%B0%EA%B5%AC%EC%86%8C/ai/llm%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B0%9C%EB%B0%9C%20%EA%B3%BC%EC%A0%95/2026-03-25-%EA%B0%95%EC%9D%98%EC%A0%95%EB%A6%AC",
+    "categories": "모두의연구소, AI/LLM 서비스 개발 과정",
+    "tags": "AI, LLM",
+    "date": "2026-03-25 23:59:59 +0900",
+    "content": "프롬프트 엔지니어링 - Zero-shot, Few-shot"
+  },
+  
+  {
+    "title": "2026-03-24 강의 정리",
+    "url": "/%EB%AA%A8%EB%91%90%EC%9D%98%EC%97%B0%EA%B5%AC%EC%86%8C/ai/llm%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B0%9C%EB%B0%9C%20%EA%B3%BC%EC%A0%95/2026-03-24-%EA%B0%95%EC%9D%98%EC%A0%95%EB%A6%AC",
+    "categories": "모두의연구소, AI/LLM 서비스 개발 과정",
+    "tags": "AI, LLM",
+    "date": "2026-03-24 23:59:59 +0900",
+    "content": "프롬프트 엔지니어링 - 효과적인 프롬프트 템플릿 설계"
+  },
+  
+  {
+    "title": "2026-03-20 강의 정리",
+    "url": "/%EB%AA%A8%EB%91%90%EC%9D%98%EC%97%B0%EA%B5%AC%EC%86%8C/ai/llm%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B0%9C%EB%B0%9C%20%EA%B3%BC%EC%A0%95/2026-03-20-%EA%B0%95%EC%9D%98%EC%A0%95%EB%A6%AC",
+    "categories": "모두의연구소, AI/LLM 서비스 개발 과정",
+    "tags": "AI, LLM",
+    "date": "2026-03-20 23:59:59 +0900",
+    "content": "LangChain의 RAG 콤포넌트 - 문서 임베딩(Embeddings) + 벡터저장소 (Vector Stores)"
+  },
+  
+  {
+    "title": "2026-03-19 강의 정리",
+    "url": "/%EB%AA%A8%EB%91%90%EC%9D%98%EC%97%B0%EA%B5%AC%EC%86%8C/ai/llm%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B0%9C%EB%B0%9C%20%EA%B3%BC%EC%A0%95/2026-03-19-%EA%B0%95%EC%9D%98%EC%A0%95%EB%A6%AC",
+    "categories": "모두의연구소, AI/LLM 서비스 개발 과정",
+    "tags": "AI, LLM",
+    "date": "2026-03-19 23:59:59 +0900",
+    "content": "LangChain의 RAG 콤포넌트 - 문서 로더 + 텍스트 분할"
+  },
+  
+  {
+    "title": "2026-03-18 강의 정리",
+    "url": "/%EB%AA%A8%EB%91%90%EC%9D%98%EC%97%B0%EA%B5%AC%EC%86%8C/ai/llm%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B0%9C%EB%B0%9C%20%EA%B3%BC%EC%A0%95/2026-03-18-%EA%B0%95%EC%9D%98%EC%A0%95%EB%A6%AC",
+    "categories": "모두의연구소, AI/LLM 서비스 개발 과정",
+    "tags": "AI, LLM",
+    "date": "2026-03-18 23:59:59 +0900",
+    "content": "RAG의 기본 개념 / 문서 전처리 과정의 이해"
+  },
+  
+  {
+    "title": "2026-03-17 강의 정리",
+    "url": "/%EB%AA%A8%EB%91%90%EC%9D%98%EC%97%B0%EA%B5%AC%EC%86%8C/ai/llm%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B0%9C%EB%B0%9C%20%EA%B3%BC%EC%A0%95/2026-03-17-%EA%B0%95%EC%9D%98%EC%A0%95%EB%A6%AC",
+    "categories": "모두의연구소, AI/LLM 서비스 개발 과정",
+    "tags": "AI, LLM",
+    "date": "2026-03-17 23:59:59 +0900",
+    "content": "NLP 기초 - Tokenization + Embedding 이해 (BoW, TF-IDF, Word2Vec)"
+  },
+  
+  {
+    "title": "2026-03-14 강의 정리",
+    "url": "/%EB%AA%A8%EB%91%90%EC%9D%98%EC%97%B0%EA%B5%AC%EC%86%8C/ai/llm%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B0%9C%EB%B0%9C%20%EA%B3%BC%EC%A0%95/2026-03-14-%EA%B0%95%EC%9D%98%EC%A0%95%EB%A6%AC",
+    "categories": "모두의연구소, AI/LLM 서비스 개발 과정",
+    "tags": "AI, LLM",
+    "date": "2026-03-14 23:59:59 +0900",
+    "content": "LangChain LCEL 문법 + Gradio 챗봇 구현 (간단한 QA 애플리케이션)"
+  },
+  
+  {
+    "title": "2026-03-13 강의 정리",
+    "url": "/%EB%AA%A8%EB%91%90%EC%9D%98%EC%97%B0%EA%B5%AC%EC%86%8C/ai/llm%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B0%9C%EB%B0%9C%20%EA%B3%BC%EC%A0%95/2026-03-13-%EA%B0%95%EC%9D%98%EC%A0%95%EB%A6%AC",
+    "categories": "모두의연구소, AI/LLM 서비스 개발 과정",
+    "tags": "AI, LLM",
+    "date": "2026-03-13 23:59:59 +0900",
+    "content": "LangChain 소개 - 주요 아키텍처 및 컴포넌트 이해"
+  },
+  
+  {
     "title": "2026-03-12 강의 정리",
     "url": "/%EB%AA%A8%EB%91%90%EC%9D%98%EC%97%B0%EA%B5%AC%EC%86%8C/ai/llm%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EA%B0%9C%EB%B0%9C%20%EA%B3%BC%EC%A0%95/2026-03-12-%EA%B0%95%EC%9D%98%EC%A0%95%EB%A6%AC",
     "categories": "모두의연구소, AI/LLM 서비스 개발 과정",
     "tags": "AI, LLM",
     "date": "2026-03-12 23:59:59 +0900",
-    "content": "OpenAI API 파라미터 심화 및 멀티턴 대화"
+    "content": "환경설정 / LLM 생성 원리 + OpenAI Chat Completion API 활용"
   },
   
   {
@@ -15,7 +168,7 @@
     "categories": "모두의연구소, AI/LLM 서비스 개발 과정",
     "tags": "AI, LLM",
     "date": "2026-03-11 23:59:59 +0900",
-    "content": "Python 기초 및 OpenAI API 연동 실습"
+    "content": "파이썬 클린코드"
   },
   
   {
@@ -24,7 +177,7 @@
     "categories": "모두의연구소, AI/LLM 서비스 개발 과정",
     "tags": "AI, LLM",
     "date": "2026-03-10 23:59:59 +0900",
-    "content": "OpenAI API 기초 및 LangChain 환경 설정"
+    "content": "OT + 아이스브레이킹 + [프로젝트1] 안내"
   }
   
 ]
